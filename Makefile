@@ -3,7 +3,7 @@ CFLAGS	= -Wall -g
 COFLAGS	= -Wall -c -g
 OBJFILES = main.o quicksort.o lista.o info.o genrandom.o
 LDFLAGS = -lm
-TARGET = tp2
+TARGET = quicksort
 all: $(OBJFILES) 
 	$(CC) $(CFLAGS) $(OBJFILES) -o $(TARGET) $(LDFLAGS)
 main.o: main.c

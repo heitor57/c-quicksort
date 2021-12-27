@@ -1,4 +1,0 @@
-Sistema operacional utilizado: Linux archlinux 4.18.16
-
-Para a compilação basta utilizar o comando make no diretório com o código fonte:
-$ make
